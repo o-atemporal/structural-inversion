@@ -25,80 +25,81 @@ Ela não altera parâmetros. Não acrescenta hipótese. Não introduz constante 
 
 ---
 
-## O que a operação faz
+## Primeira ocorrência — A convergência relativística
 
-Na forma original, a identidade está em cima e o fluxo embaixo:
+**Forma original:**
 
 $$
 R = \sqrt{\frac{k}{\Phi \cdot v_a}}
 $$
 
-O raio cresce com a identidade. Aplicando a inversão — o fluxo sobe:
+**Inversão estrutural:**
 
 $$
 R = \sqrt{\frac{\Phi \cdot v_a}{k}}
 $$
 
-Agora o raio cresce com a **fonte**. É essa troca que produz o resultado.
-
----
-
-## Ocorrências no sistema
-
-### Primeira — a convergência relativística
-
-Aplicada à Segunda Forma, a inversão produz a Décima Quinta e, com a identidade
-do regime de buracos negros, o raio de Schwarzschild:
+Com a identidade do regime de buracos negros, k = c⁷ / (4G²M), a forma converge
+para o raio de Schwarzschild:
 
 $$
-\sqrt{\frac{k}{\Phi \cdot v_a}}
-\;\xrightarrow{\;\text{inversão estrutural}\;}
-\sqrt{\frac{\Phi \cdot v_a}{k}}
-\;\xrightarrow{\;k = c^7/(4G^2M)\;}\;
 R_s = \frac{2GM}{c^2}
 $$
 
-**O que ela viabiliza:** sem a inversão, o M do fluxo nunca encontraria o M dentro
+**O que a inversão viabiliza:** sem ela, o M do fluxo nunca encontraria o M dentro
 de k. Não haveria cancelamento, e não haveria raio gravitacional.
 
-O expoente c⁷ decorre da raiz dupla introduzida pela dependência quadrática.
-Sem o expoente radial dois, as potências não convergiriam.
+O expoente c⁷ decorre da raiz dupla introduzida pela dependência quadrática da
+Segunda Forma.
 
-### Segunda — a fonte em evidência
+---
 
-Aplicada ao axioma de campo, a inversão produz a Trigésima Primeira Forma:
+## Segunda ocorrência — A fonte em evidência
+
+**Forma original:**
 
 $$
 \lambda \left(\frac{k}{\Phi + \varepsilon}\right)^{1/n}
-\;\xrightarrow{\;\text{inversão estrutural}\;}
+$$
+
+**Inversão estrutural:**
+
+$$
 \lambda \left(\frac{\Phi + \varepsilon}{k}\right)^{1/n}
 $$
 
-**O que ela viabiliza:** a escala passa a crescer com o fluxo efetivo, e não com
-a identidade. A fonte fica em evidência.
+**O que a inversão viabiliza:** a escala passa a crescer com o fluxo efetivo, e
+não com a identidade. A fonte fica em evidência.
 
-### Terceira — o registro do tempo
+---
 
-Aplicada à razão temporal da Quadragésima Primeira, a inversão isola a fração da
-vida percorrida:
+## Terceira ocorrência — O registro do tempo
+
+**Forma original:**
+
+$$
+t_{evap} = \frac{t}{1 - \Bigg[ \frac{\lambda \Big[ \big( \frac{k}{\varepsilon+\Phi} \big)^{1/n} - 1 \Big]}{R \big(1 - a^{2}\cos^{2}\theta\big)} \Bigg]^{3}}
+$$
+
+**Inversão estrutural:**
 
 $$
 \frac{t}{t_{evap}} = 1 - \Bigg[ \frac{\lambda \Big[ \big( \frac{k}{\varepsilon+\Phi} \big)^{1/n} - 1 \Big]}{R \big(1 - a^{2}\cos^{2}\theta\big)} \Bigg]^{3}
 $$
 
-**O que ela viabiliza:** o tempo deixa de ser parâmetro externo e passa a ser
-grandeza recuperável do estado. A grandeza que estava presa no denominador sobe
-para o numerador, e o resultado fica explícito.
+**O que a inversão viabiliza:** o tempo deixa de ser parâmetro externo e passa a
+ser grandeza recuperável do estado. A razão temporal sobe para o numerador, e o
+resultado fica explícito.
 
 ---
 
 ## Quadro comparativo das três ocorrências
 
-| Ocorrência | Forma de origem | O que sobe | Resultado | Complexidade |
-| --- | --- | --- | --- | --- |
-| 1ª | 2ª Forma | Φ·vₐ sob raiz | Raio de Schwarzschild | Algébrica |
-| 2ª | Axioma de campo | Φ + ε | Fonte em evidência | Algébrica |
-| 3ª | 41ª Forma | Razão temporal | Fração da vida percorrida | Transcendente |
+| Ocorrência | O que sobe | Resultado | Complexidade |
+| --- | --- | --- | --- |
+| 1ª | Φ·vₐ sob raiz | Raio de Schwarzschild | Algébrica |
+| 2ª | Φ + ε | Fonte em evidência | Algébrica |
+| 3ª | Razão temporal | Fração da vida percorrida | Transcendente |
 
 As duas primeiras devolvem **uma grandeza** — um comprimento, uma escala. A
 terceira devolve **uma razão adimensional** que mede posição na trajetória.
